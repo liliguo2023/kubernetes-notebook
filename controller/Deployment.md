@@ -2,9 +2,11 @@
 
 >  kube-controller-manager 内嵌随 Kubernetes 一起发布的核心控制回路，在 Kubernetes 中，每个控制器是一个控制回路，通过 API 服务器监视集群的共享状态， 并尝试进行更改以将当前状态转为期望状态(kubernetes中文官方截取内容)
 >
-> deployment controller 通过监听deployment、replicaset、pod等资源，从而实现deployment的创建、删除、扩容、回滚、暂停恢复等操作
+>  deployment controller 通过监听deployment、replicaset、pod等资源，从而实现deployment的创建、删除、扩容、回滚、暂停恢复等操作
 >
-> 版本:  v1.28.0
+>  最好熟练使用deployment，方便模拟deployment的多种使用情况
+>
+>  版本:  v1.28.0
 
 ~~~go
 // kubernetes Controller列表
