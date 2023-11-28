@@ -1,0 +1,1 @@
+![avatar](https://github.com/liguoli0216/kubernetes-note-book/blob/main/client-go/k8s-informers.jpeg)
